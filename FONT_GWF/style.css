@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+.card {
+    display: inline-block;
+    width: 400px;
+    margin-left: 10px;
+    font-family: Lobster, sans-serif;
+    font-size: 20px;
+}
+.text {
+   display: inline-block; 
+   width: 400px;
+   vertical-align: 100px;
+   font-family: Alice, sans-serif;
+   text-align: justify; 
+   font-size: 20px;
+}
+h2 {
+    margin-left: 10px;
+}
+h3 {
+    margin-left: 70px;
+}
+.text p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(43, 5, 78);
+}
