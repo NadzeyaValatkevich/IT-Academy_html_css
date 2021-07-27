@@ -1,0 +1,21 @@
+h3 {
+    text-align: center;
+}
+.text {
+    text-indent: 20px;
+}
+.card {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    height: auto;
+    width: auto;
+    padding: 60px;
+    text-align: left;
+    background: url(img_new/ramkatop.png) left top no-repeat,
+    url(img_new/ramkatopright.png) right top no-repeat, 
+    url(img_new/ramkatop_center.png) center top repeat-x,
+    url(img_new/ramka_bottom_left.png) left bottom no-repeat,
+    url(img_new/ramka_bottom_right.png) right bottom no-repeat,
+    url(img_new/ramka_bottom_center.png) center bottom repeat-x,
+    url(img_new/ramka_center_left.png)  center left repeat-y,
+    url(img_new/ramka_center_right.png) center right repeat-y;                                                                                                                                                              
+}
