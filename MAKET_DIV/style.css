@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: rgb(134, 187, 223);
+    color: #8f128f;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sum {
+    background-color: rgb(238, 178, 67);
+}
+
+.menu {
+    width: 250px;
+    padding: 10px; 
+    float: left;  
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+.list {
+    font-size: 20px;
+}
+
+.content {
+    padding: 10px; 
+    margin-left: 250px; 
+    background: white;
+    position: relative;
+}
+
+.add {
+    clear: both;
+}
+
+h1 {
+    text-align: center;   
+ }
+
+.photo {
+    float: left;
+    margin-right: 10px;
+}
+
+.card p {
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+}
+
+.footer {
+    clear: both;
+}
+
+.content::before {
+    content: '';
+    background: url("depositphotos_24366251-stock-photo-soccer-ball.jpg") top right repeat-y;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    z-index: 1;
+}
