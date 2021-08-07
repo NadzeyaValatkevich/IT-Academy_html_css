@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--inline-Элемент. Ссылка-это inline-элемент. Он не переносится на новую строку, а располагается на той же строке, что и предыдущий элемент; они как правило, находятся внутри блочных элементов и их ширина зависит лишь от содержимого и настроек. В нем могут находиться только строчные элементы.
+    Разделители сделаны свойством border-right у элемента ссылки.-->
+    <div class="block_1">
+        <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8" target="_blank">первая ссылка</a>
+        <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%93%D1%80%D0%B5%D1%86%D0%B8%D0%B8" target="_blank">вторая ссылка</a>
+        <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8" target="_blank">третья ссылка</a> 
+        <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%A2%D1%83%D1%80%D1%86%D0%B8%D0%B8" target="_blank">четвертая ссылка</a>
+        <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%95%D0%B3%D0%B8%D0%BF%D1%82%D0%B5" target="_blank">пятая ссылка</a> 
+    </div>
+    <!--Метод table. Все столбцы имеют одинаковую высоту, равную высоте самого высокого из них; можно использовать ячейку статической ширины рядом с ячейкой с динамической шириной без ее смещения на следующую строку. Ячейки всегда растягиваются так, чтобы охватить всю ширину строки, если только не указана она фиксированно (не %). Долгая загрузка; громоздкий код; плохая индексация поисковиками; нет разделения содержимого и оформления.
+    Разделители сделаны свойством border-right у элемента ячейки таблицы.-->
+    <div class="block_2">
+        <table>
+            <tr>
+                <td>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8" target="_blank">первая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%93%D1%80%D0%B5%D1%86%D0%B8%D0%B8" target="_blank">вторая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8" target="_blank">третья ссылка</a> 
+                </td>
+                <td>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%A2%D1%83%D1%80%D1%86%D0%B8%D0%B8" target="_blank">четвертая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%95%D0%B3%D0%B8%D0%BF%D1%82%D0%B5" target="_blank">пятая ссылка</a>
+                </td>
+            </tr>
+        </table>    
+    </div>
+    <!--Метод:floats. Преимущества:простой способ "расталкивания" элементов влево и вправо внутри родительского контейнера; простой способ реализации обтекания изображения текстом. Недостатки: не используется для центрирования; требует добавления дополнительного элемента, при определении ширины float-элементов, могут быть проблемы с компановкой, не предназначен для обтекания блока текстом.
+    Разделители сделаны с помощью псевдоэлемента ::after у элемента ссылки.-->
+    <div class="block_3">
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8" target="_blank">первая ссылка</a></div>
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%93%D1%80%D0%B5%D1%86%D0%B8%D0%B8" target="_blank">вторая ссылка</a></div>
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8" target="_blank">третья ссылка</a></div> 
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%A2%D1%83%D1%80%D1%86%D0%B8%D0%B8" target="_blank">четвертая ссылка</a></div>
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%95%D0%B3%D0%B8%D0%BF%D1%82%D0%B5" target="_blank">пятая ссылка</a></div>
+        <div></div> 
+    </div>
+    <!--Метод Flexbox. Простое объявление display:flex в родительском контейнере дает нам дочерние элементы равной высоты и ширины; существует огромное множество возможных комбинаций всех flexbox свойств; блоки очень легко делаются резиновыми, синтаксис CSS правил очень прост.
+    Разделители сделаны с помощью добавления элемента span со значением вертикальной черты.-->
+    <div class="block_4">
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8" target="_blank">первая ссылка</a><span>|</span></div>
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%93%D1%80%D0%B5%D1%86%D0%B8%D0%B8" target="_blank">вторая ссылка</a><span>|</span></div>
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8" target="_blank">третья ссылка</a><span>|</span></div> 
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%A2%D1%83%D1%80%D1%86%D0%B8%D0%B8" target="_blank">четвертая ссылка</a><span>|</span></div>
+        <div><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC_%D0%B2_%D0%95%D0%B3%D0%B8%D0%BF%D1%82%D0%B5" target="_blank">пятая ссылка</a><span>|</span></div> 
+    </div>
+</body>
+</html>
