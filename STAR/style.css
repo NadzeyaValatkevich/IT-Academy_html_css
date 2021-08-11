@@ -1,0 +1,23 @@
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+} 
+
+svg {
+    width: 100px;
+    height: 100px;  
+}
+
+.rating svg {
+    fill: white;
+    stroke: red;
+    cursor: pointer;
+}
+svg:hover {
+    fill:red;
+}
+
+svg:hover ~ svg {
+    fill:red;
+}
