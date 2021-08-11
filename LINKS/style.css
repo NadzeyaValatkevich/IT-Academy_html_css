@@ -1,0 +1,64 @@
+.block_1, .block_2, .block_3, .block_4 {
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+}
+
+a {
+    color: green;  
+}
+
+a:hover {
+    color: red;
+}
+
+.block_1 > a {
+    border-right: 2px solid red;
+    padding: 0px 15px 10px 14px;
+}
+
+td > a {
+    padding: 0px 15px 0px 14px;
+}
+
+td {
+    border-right: 2px solid red; 
+    text-align: center;
+    height: 28px;
+} 
+
+.block_3 > div {
+    float: left; 
+}
+
+.block_3 div:nth-child(6) {
+    clear: both;
+}
+
+.block_3 > div > a {
+    padding: 0px 15px 0px 14px; 
+}
+
+.block_3 > div > a::after {
+    content: "|";
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+    left: 15px;
+}
+
+.block_4 {
+    display: flex;
+}
+
+.block_4 > div > a {
+    padding: 0px 13px 0px 12px;
+}
+
+span {
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+    padding-left: 4px;
+}
