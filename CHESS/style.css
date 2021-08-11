@@ -1,0 +1,29 @@
+h3, p {
+    margin: 0;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+h3 ~ p{
+    color: blue;
+}
+
+p + p {
+    color: red;
+}
+
+h3 + p {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: indigo;
+}
+
+[href^="http://"] {
+    background: url(extref.png) no-repeat left;
+    padding-left: 10px;
+}
