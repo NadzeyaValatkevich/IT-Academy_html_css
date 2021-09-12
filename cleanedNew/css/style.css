@@ -559,6 +559,8 @@ body {
 .call_back {
     grid-column: 1;
     grid-row: 1/4;
+    width: 100%;
+    height: auto;
     background-color: #4AC9F0;
     padding: 40px 30px 0 80px;
     display: flex;
@@ -578,7 +580,6 @@ body {
     top: 0;
     left: 72%;
     transform: translateX(+55%) skewX(-4deg);
-    transform-origin: left;
 }
 .title-call_back {
     font-size: 46px;
